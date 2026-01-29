@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages SPA redirect
+      var path = window.location.pathname;
+      var repo = "/sr-mavericks-school";
+
+      if (path.startsWith(repo)) {
+        path = path.replace(repo, "");
+      }
+
+      window.location.replace(
+        repo + "/?redirect=" + encodeURIComponent(path + window.location.search + window.location.hash)
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
