@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
+  base: "/sr-mavericks-school/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
