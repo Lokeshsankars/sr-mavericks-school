@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SR MAVERICKS Design System - Warm, Playful, Nurturing */
+
+@layer base {
+  :root {
+    /* Base Colors - Warm Cream Background */
+    --background: 40 50% 98%;
+    --foreground: 220 20% 20%;
+
+    /* Card & Surface */
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 20%;
+
+    /* Primary - Warm Orange (Playful, Energetic) */
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Soft Teal (Trustworthy, Calm) */
+    --secondary: 180 50% 45%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted - Soft Gray */
+    --muted: 40 20% 94%;
+    --muted-foreground: 220 10% 45%;
+
+    /* Accent Colors for Variety */
+    --accent: 340 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Additional Theme Colors */
+    --sunshine: 45 95% 55%;
+    --sunshine-foreground: 220 20% 20%;
+    
+    --forest: 145 60% 45%;
+    --forest-foreground: 0 0% 100%;
+    
+    --sky: 200 85% 55%;
+    --sky-foreground: 0 0% 100%;
+    
+    --coral: 10 80% 60%;
+    --coral-foreground: 0 0% 100%;
+
+    /* Decorative */
+    --pink-soft: 340 70% 85%;
+    --orange-soft: 30 90% 85%;
+    --blue-soft: 200 80% 85%;
+    --green-soft: 145 60% 85%;
+    --yellow-soft: 45 90% 85%;
+
+    /* Utility */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 30% 88%;
+    --input: 40 30% 88%;
+    --ring: 24 95% 53%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(24, 95%, 53%) 0%, hsl(340, 80%, 60%) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(40, 50%, 98%) 0%, hsl(30, 90%, 95%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(40, 30%, 98%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(220 20% 20% / 0.08);
+    --shadow-card: 0 8px 30px -8px hsl(220 20% 20% / 0.12);
+    --shadow-elevated: 0 16px 50px -12px hsl(220 20% 20% / 0.15);
+    --shadow-glow-primary: 0 8px 30px -8px hsl(24 95% 53% / 0.35);
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 24 95% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 40 20% 94%;
+    --sidebar-accent-foreground: 220 20% 20%;
+    --sidebar-border: 40 30% 88%;
+    --sidebar-ring: 24 95% 53%;
+  }
+
+  .dark {
+    --background: 220 20% 10%;
+    --foreground: 40 20% 95%;
+
+    --card: 220 20% 14%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 220 20% 14%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 24 95% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 180 50% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 15% 20%;
+    --muted-foreground: 40 10% 65%;
+
+    --accent: 340 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 25%;
+    --input: 220 15% 25%;
+    --ring: 24 95% 55%;
+
+    --sidebar-background: 220 20% 12%;
+    --sidebar-foreground: 40 20% 90%;
+    --sidebar-primary: 24 95% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 15% 18%;
+    --sidebar-accent-foreground: 40 20% 90%;
+    --sidebar-border: 220 15% 25%;
+    --sidebar-ring: 24 95% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-foreground mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-muted-foreground max-w-2xl;
+  }
+
+  /* Hero specific styles */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .card-gradient {
+    background: var(--gradient-card);
+  }
+
+  /* Decorative circles */
+  .circle-decorator {
+    @apply absolute rounded-full opacity-60;
+  }
+
+  /* WhatsApp Button Animation */
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 hsl(142 70% 45% / 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px hsl(142 70% 45% / 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 hsl(142 70% 45% / 0);
+    }
+  }
+
+  .whatsapp-pulse {
+    animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  }
+
+  /* Float animation for decorative elements */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  /* Fade in animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-hero);
+  }
+}
