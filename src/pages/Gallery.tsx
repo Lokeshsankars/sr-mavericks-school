@@ -60,57 +60,57 @@ const galleryImages = [
     category: "annual day",
   },
   {
-    src: "/assets/ad-2.png",
+    src: "assets/ad-2.png",
     alt: "Students performing dance during Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-3.png",
+    src: "assets/ad-3.png",
     alt: "Annual Day cultural program highlights",
     category: "annual day",
   },
   {
-    src: "/assets/ad-4.png",
+    src: "assets/ad-4.png",
     alt: "Annual Day Fancy Dress Event",
     category: "annual day",
   },
   {
-    src: "/assets/ad-5.png",
+    src: "assets/ad-5.png",
     alt: "Students performing dance",
     category: "annual day",
   },
   {
-    src: "/assets/ad-6.png",
+    src: "assets/ad-6.png",
     alt: "Fancy dress competition on Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-7.png",
+    src: "assets/ad-7.png",
     alt: "Child giving speech on Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-8.png",
+    src: "assets/ad-8.png",
     alt: "Child giving speech on Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-9.png",
+    src: "assets/ad-9.png",
     alt: "child giving speech on Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-10.png",
+    src: "assets/ad-10.png",
     alt: "Chief Guest addressing audience at Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-11.png",
+    src: "assets/ad-11.png",
     alt: "Founder welcoming guests at Annual Day",
     category: "annual day",
   },
   {
-    src: "/assets/ad-12.png",
+    src: "assets/ad-12.png",
     alt: "Founder welcoming guests at Annual Day",
     category: "annual day",
   }
