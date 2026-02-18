@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const programmeData = {
   nursery: {
     title: "Grade: Nursery",
-    img: "assets/nursery.jpg",
+    img: "assets/nursery1.jpeg",
     desc1:
       "Our Nursery programme lays the foundation for lifelong learning through play-based and experiential activities. Children are gently introduced to language, numbers, music, and movement in a safe and joyful environment.",
     desc2:
@@ -12,7 +12,7 @@ const programmeData = {
   },
   lkg: {
     title: "Grade: LKG",
-    img: "assets/lkg.jpeg",
+    img: "assets/lkg1.jpeg",
     desc1:
       "The LKG programme focuses on structured learning blended with creativity and fun. Children begin developing early literacy and numeracy skills through phonics, storytelling, and hands-on experiences.",
     desc2:
@@ -20,7 +20,7 @@ const programmeData = {
   },
   ukg: {
     title: "Grade: UKG",
-    img: "assets/ukg.jpg",
+    img: "assets/ukg1.jpeg",
     desc1:
       "UKG prepares children for a smooth transition into primary education by strengthening reading, writing, number concepts, and logical thinking.",
     desc2:

@@ -94,7 +94,7 @@ const Footer = () => {
                 <Facebook className="h-4 w-4" />
               </a>
               <a
-                href="https://www.instagram.com/sr_mavericks_/"
+                href="https://www.instagram.com/mavericks_sr?igsh=Z2oyNjNnY2R6aTMy/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-9 w-9 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
@@ -105,7 +105,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://youtube.com/@srmavericksinternationalschool?si=cXLgq4H6DTKZjig5"
+                href="https://youtube.com/@srmavericksinternationalschool?si=CW7TLdYYMNC9i18I"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-9 w-9 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"

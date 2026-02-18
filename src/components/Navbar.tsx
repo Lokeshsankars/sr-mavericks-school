@@ -30,9 +30,15 @@ const Navbar = () => {
               alt="SR Mavericks Logo"
               className="h-9 w-9 sm:h-10 sm:w-10 md:h-12 md:w-12 rounded-lg object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
             />
-            <span className="hidden sm:block font-bold text-base md:text-lg text-foreground transition-colors duration-300 group-hover:text-primary">
-              SR MAVERICKS
-            </span>
+            <div className="hidden sm:flex flex-col">
+              <span className="font-bold text-base md:text-lg text-foreground transition-colors duration-300 group-hover:text-primary">
+                SR MAVERICKS
+              </span>
+              <span className="font-bold text-sm md:text-base text-foreground transition-colors duration-300 group-hover:text-primary">
+                <small>International School</small>
+              </span>
+            </div>
+            
           </Link>
 
           {/* Desktop Navigation */}

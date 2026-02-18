@@ -5,7 +5,7 @@ import ProgrammeTabs from "@/components/ProgrammeTabs";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, ChevronUp, Play, Quote } from "lucide-react";
+import { ChevronDown, ChevronUp, Play, Quote, Star } from "lucide-react";
 import { useState } from "react";
 import {
   Accordion,
@@ -16,17 +16,26 @@ import {
 
 const testimonials = [
   {
-    text: "Choosing SR MAVERICKS for my child has been one of the best decisions we've made. The teachers are caring, creative, and deeply invested in every child's growth. My child looks forward to school every single day.",
-    name: "Sameera",
-  },
-  {
-    text: "SR MAVERICKS provides a warm and structured environment where children feel safe to explore, ask questions, and grow. The balance between academics and creativity is excellent.",
-    name: "Arvind K.",
-  },
-  {
-    text: "The teachers go beyond textbooks and focus on values, confidence, and communication. We've seen a remarkable change in our child's social and emotional development.",
-    name: "Priya R.",
-  },
+  text: "My experience at SR Mavericks International School was exceptional! The staff created a nurturing environment, allowing children to thrive. What stood out was their efficient management with minimal paperwork, enabling more time for engaging activities and personal interactions. A perfect blend of care and education that truly prioritizes a child's development.",
+  name: "Hania Mizna",
+},
+{
+  text: "I had a great experience with SR Mavericks International Preschool. Booking was easy, and the staff was very helpful. The pricing is also reasonable compared to other preschools in the area. I would definitely recommend it to parents looking for a quality preschool.",
+  name: "Thatchayani Lokesh",
+},
+{
+  text: "My experience at SR Mavericks International School has been outstanding! The service is exceptional, and the staff goes above and beyond to ensure a safe environment. Proper sanitization practices are followed diligently, creating hygienic surroundings that promote health and well-being.",
+  name: "Sundharavalli",
+},
+{
+  text: "My experience at SR Mavericks International School was exceptional! The staff provided outstanding care and attention to each child, fostering a nurturing environment. The curriculum was engaging and promoted both learning and creativity. Communication with parents was excellent, ensuring we felt involved in our child’s development.",
+  name: "Krithvik",
+},
+{
+  text: "I had a great experience with SR Mavericks International School! One of the best aspects is their on-call service. Whenever I needed help or had questions, the staff was always available and supportive. It made me feel assured that my child was in good hands. Highly recommend!",
+  name: "Nisha",
+},
+
 ];
 
 const galleryImages = [
@@ -236,7 +245,7 @@ const Home = () => {
                 and creativity.
               </p>
               <div className="border-t border-border pt-4">
-                <p className="font-semibold text-foreground">Mr. S. Founder</p>
+                <p className="font-semibold text-foreground">Dr. K. N. Sumathi, MBA, M.Phil., Ph.D.</p>
                 <p className="text-muted-foreground text-sm">Founder & Managing Director</p>
                 <p className="text-primary text-sm font-medium">SR MAVERICKS</p>
               </div>
@@ -283,6 +292,38 @@ const Home = () => {
               ))}
             </div>
           </div>
+
+          {/* Review Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
+              {/* View All Reviews Button */}
+              <a
+                href=" https://www.google.com/maps/place/?q=place_id:ChIJ7_MXd09hUjoRs_JJObIlND8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 sm:flex-none"
+              >
+                <button className="w-full sm:w-auto px-8 py-3 border-2 border-primary text-primary hover:bg-primary/5 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2">
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                  </svg>
+                  View All Reviews
+                </button>
+              </a>
+
+              {/* Write a Review Button */}
+              <a
+                href=" https://www.google.com/maps/place/?q=place_id:ChIJ7_MXd09hUjoRs_JJObIlND8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 sm:flex-none"
+              >
+                <button className="w-full sm:w-auto px-8 py-3 bg-primary hover:bg-primary/80 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2">
+                  <Star className="h-5 w-5 fill-current" />
+                  Write a Review
+                </button>
+              </a>
+            </div>
+          
         </div>
       </section>
 

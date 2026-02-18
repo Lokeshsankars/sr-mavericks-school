@@ -26,7 +26,7 @@ const TopBar = () => {
         
         <div className="hidden md:flex items-center gap-3">
           <a 
-            href="https://youtube.com/@srmavericksinternationalschool?si=cXLgq4H6DTKZjig5" 
+            href="https://youtube.com/@srmavericksinternationalschool?si=CW7TLdYYMNC9i18I" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:opacity-80 transition-opacity"
@@ -44,7 +44,7 @@ const TopBar = () => {
             <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
           </a>
           <a 
-            href="https://www.instagram.com/sr_mavericks_/" 
+            href="https://www.instagram.com/mavericks_sr?igsh=Z2oyNjNnY2R6aTMy" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:opacity-80 transition-opacity"

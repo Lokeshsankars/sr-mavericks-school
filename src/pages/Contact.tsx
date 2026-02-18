@@ -102,8 +102,8 @@ const Contact = () => {
               viewport={{ once: true }}
               className="rounded-2xl overflow-hidden shadow-lg h-[300px] md:h-full min-h-[300px]"
             >
-              <iframe
-                src="https://www.google.com/maps?q=SR%20Mavericks%20International%20School,%20NO.45,%20Bhakthavachallam%20Avenue,%20near%20James%20St,%20Poonamallee,%20Chennai,%20Tamil%20Nadu%20600056&output=embed"
+              <iframe                          
+                src="https://www.google.com/maps?q=13.04389176385258,80.10517538875662&z=16&output=embed"
                 className="w-full h-full"
                 allowFullScreen
                 loading="lazy"
