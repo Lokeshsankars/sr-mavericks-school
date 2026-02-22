@@ -245,7 +245,7 @@ const Home = () => {
                 and creativity.
               </p>
               <div className="border-t border-border pt-4">
-                <p className="font-semibold text-foreground">Dr. K. N. Sumathi, MBA, M.Phil., Ph.D.</p>
+                <p className="font-semibold text-foreground">Ln. Dr. K. N. Sumathi, MBA, M.Phil., Ph.D.</p>
                 <p className="text-muted-foreground text-sm">Founder & Managing Director</p>
                 <p className="text-primary text-sm font-medium">SR MAVERICKS</p>
               </div>
