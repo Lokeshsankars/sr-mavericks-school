@@ -14,7 +14,7 @@ const Footer = () => {
               className="h-16 w-16 rounded-lg object-cover"
             />
             <p className="text-background/80 text-sm leading-relaxed">
-              SR MAVERICKS is a nurturing Nursery & Primary School committed to
+              SR MAVERICKS is a nurturing international school committed to
               holistic development, joyful learning, and building strong
               foundations for lifelong success.
             </p>

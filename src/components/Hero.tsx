@@ -28,7 +28,7 @@ const Hero = () => {
           className="max-w-2xl"
         >
           <p className="text-primary font-semibold text-lg mb-4">
-            Nursery & Primary School
+            International School
           </p>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
