@@ -4,7 +4,7 @@ import { BookOpen, Calculator, Globe, Music, Palette, Heart, Users, Brain, Spark
 
 const syllabusData = {
   nursery: {
-    title: "Nursery Syllabus 2025–26",
+    title: "Nursery Syllabus",
     description: "The Nursery CBSE syllabus focuses on holistic early childhood development through activity-based learning. It lays the foundation for cognitive, social-emotional, and physical growth.",
     subjects: [
       {
@@ -71,7 +71,7 @@ const syllabusData = {
     ],
   },
   lkg: {
-    title: "LKG Syllabus 2025–26",
+    title: "LKG Syllabus",
     description: "LKG builds on pre-primary learning, introducing structured activities to develop foundational literacy, numeracy, and social skills in a playful environment.",
     subjects: [
       {
@@ -137,7 +137,7 @@ const syllabusData = {
     ],
   },
   ukg: {
-    title: "UKG Syllabus 2025–26",
+    title: "UKG Syllabus",
     description: "UKG prepares children for a smooth transition to primary school. The syllabus enhances reading, writing, and basic mathematical skills with a focus on independent learning.",
     subjects: [
       {
@@ -202,7 +202,7 @@ const syllabusData = {
     ],
   },
   primary: {
-    title: "Primary Syllabus 2025–26 (Class 1 to 5)",
+    title: "Primary Syllabus (Class 1 to 5)",
     description: "The CBSE curriculum for Classes 1 to 5 focuses on building a strong academic foundation and promoting conceptual clarity, creativity, critical thinking, and holistic development.",
     classes: [
       {
@@ -427,7 +427,7 @@ const CurriculumTabs = () => {
       <div className="section-container">
         <div className="text-center mb-12">
           <span className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-            CBSE Syllabus 2025–26
+            CBSE Syllabus 
           </span>
           <h2 className="section-title">Grade-wise Curriculum</h2>
           <p className="section-subtitle mx-auto">

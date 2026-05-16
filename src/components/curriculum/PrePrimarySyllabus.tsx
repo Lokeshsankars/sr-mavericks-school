@@ -8,7 +8,7 @@ import {
 import { BookOpen, Calculator, Globe, Palette } from "lucide-react";
 
 const nurserySyllabus = {
-  title: "Nursery Syllabus 2025–26",
+  title: "Nursery Syllabus",
   description:
     "The Nursery programme focuses on helping children adjust to the school environment in a safe and joyful way. Learning happens through play, stories, rhymes, and hands-on activities. Children develop early language skills, basic number awareness, and social interaction. Emphasis is placed on motor skill development and creativity. This stage builds confidence and curiosity for future learning.",
   subjects: [
@@ -56,7 +56,7 @@ const nurserySyllabus = {
 };
 
 const lkgSyllabus = {
-  title: "LKG (Lower Kindergarten) Syllabus 2025–26",
+  title: "LKG (Lower Kindergarten) Syllabus",
   description:
     "LKG introduces children to structured learning while keeping the process fun and engaging. The curriculum focuses on early literacy, numeracy, and environmental awareness. Children learn through activities, storytelling, art, and group interaction. Communication skills and good habits are gradually developed. This stage strengthens the foundation for academic learning.",
   subjects: [
@@ -106,7 +106,7 @@ const lkgSyllabus = {
 };
 
 const ukgSyllabus = {
-  title: "UKG (Upper Kindergarten) Syllabus 2025–26",
+  title: "UKG (Upper Kindergarten) Syllabus",
   description:
     "UKG prepares children for formal schooling with enhanced language and number skills. The curriculum emphasizes reading readiness, basic writing, and logical thinking. Children explore their surroundings through environmental studies and practical activities. Creativity, confidence, and independence are encouraged. This stage ensures a smooth transition to Class 1.",
   subjects: [
@@ -182,7 +182,7 @@ const PrePrimarySyllabus = () => {
               Pre-Primary
             </span>
             <h2 className="text-3xl font-bold text-foreground mb-4">
-              CBSE Pre-Primary Syllabus 2025–26
+              CBSE Pre-Primary Syllabus
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
               The CBSE pre-primary curriculum is designed to provide a strong

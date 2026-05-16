@@ -173,17 +173,12 @@ const ContactForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Academic Year</FormLabel>
-                <Select onValueChange={field.onChange} value={field.value}>
-                  <FormControl>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select Year" />
-                    </SelectTrigger>
-                  </FormControl>
-                  <SelectContent>
-                    <SelectItem value="2025-2026">2025–2026</SelectItem>
-                    <SelectItem value="2026-2027">2026–2027</SelectItem>
-                  </SelectContent>
-                </Select>
+                <FormControl>
+                  <Input
+                    placeholder="e.g. 2026-2027"
+                    {...field}
+                  />
+                </FormControl>
                 <FormMessage />
               </FormItem>
             )}

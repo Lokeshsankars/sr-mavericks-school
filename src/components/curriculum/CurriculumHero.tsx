@@ -10,7 +10,7 @@ const CurriculumHero = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-            CBSE Syllabus 2025–26
+            CBSE Syllabus 
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Curriculum at SR MAVERICKS

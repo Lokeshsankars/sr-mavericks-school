@@ -232,7 +232,7 @@ const Home = () => {
                 SR MAVERICKS family as we step into a new year together.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Education is constantly evolving, and 2026 invites us to think
+                Education is constantly evolving, and invites us to think
                 differently, act compassionately, and prepare our children for
                 a future shaped by innovation and humanity. At SR MAVERICKS,
                 we remain committed to nurturing confident learners who are

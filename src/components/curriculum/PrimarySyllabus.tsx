@@ -9,7 +9,7 @@ import {
 const classSyllabi = [
   {
     id: "class1",
-    title: "Class 1 Syllabus 2025–26",
+    title: "Class 1 Syllabus",
     badge: "1",
     color: "primary",
     description:
@@ -49,7 +49,7 @@ const classSyllabi = [
   },
   {
     id: "class2",
-    title: "Class 2 Syllabus 2025–26",
+    title: "Class 2 Syllabus",
     badge: "2",
     color: "sky",
     description:
@@ -88,7 +88,7 @@ const classSyllabi = [
   },
   {
     id: "class3",
-    title: "Class 3 Syllabus 2025–26",
+    title: "Class 3 Syllabus",
     badge: "3",
     color: "forest",
     description:
@@ -128,7 +128,7 @@ const classSyllabi = [
   },
   {
     id: "class4",
-    title: "Class 4 Syllabus 2025–26",
+    title: "Class 4 Syllabus",
     badge: "4",
     color: "coral",
     description:
@@ -164,7 +164,7 @@ const classSyllabi = [
   },
   {
     id: "class5",
-    title: "Class 5 Syllabus 2025–26",
+    title: "Class 5 Syllabus",
     badge: "5",
     color: "accent",
     description:
@@ -235,7 +235,7 @@ const PrimarySyllabus = () => {
               Primary Education
             </span>
             <h2 className="text-3xl font-bold text-foreground mb-4">
-              CBSE Primary Syllabus 2025–26 (Class 1 to 5)
+              CBSE Primary Syllabus (Class 1 to 5)
             </h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
               The CBSE curriculum for Classes 1 to 5 focuses on building a strong
