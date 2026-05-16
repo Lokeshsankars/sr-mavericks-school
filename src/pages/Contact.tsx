@@ -8,13 +8,19 @@ const contactCards = [
     icon: MapPin,
     title: "Our School",
     content: ( 
-      <>  
-        NO.45 , Bhakthavachallam avenue, 
-        <br />
-        Near, James St, Poonamallee,
-        <br />
-        Chennai, Tamil Nadu - 600056
-      </>
+    <>
+      SR MAVERICKS INTERNATIONAL SCHOOL
+      <br />
+      ADMIN
+      <br />
+      Plot B, Ayyavu Street,
+      <br />
+      Vaideeswaran Nagar,
+      <br />
+      Poonamallee,
+      <br />
+      Chennai, Tamil Nadu - 600056
+    </>
     ),
     color: "bg-forest",
   },
